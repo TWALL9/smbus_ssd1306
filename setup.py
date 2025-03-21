@@ -10,7 +10,8 @@ setup(
     url="https://github.com/TWALL9/smbus_ssd1306",
     packages=find_packages(),
     requires=[
-        "smbus2"
+        "smbus2",
+        "pillow"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
